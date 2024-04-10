@@ -22,3 +22,8 @@ __04/10/2024__
 * Change password for user `debian`.
 * Update packages with `sudo apt-get update`, `sudo apt-get upgrade`, and `sudo apt-get dist-update`.
 * Install `rustup` via the curl installer. I had to *not* modify the PATH variable due to file path differences. Instead, configure the shell manually by running `source ~/.cargo/env.fish`.
+* Monitor temps via `sudo cat /sys/devices/virtual/thermal/thermal_zone0/temp`
+* USB-C connector seems to not work with my dongle (using PD too). TODO: try powering over the barrel connector and then see if the dongle works.
+* `realsense-viewer` said my camera was operating on a USB 2.1 port, but the bbai64 specs say its a 3.1 port? Maybe this way because of the cable I was using (says 2.1 on the sheating)?
+* `htop` seems to only indicate the 2GB of RAM are present.. but the specs indicate 4 should be there?
+
