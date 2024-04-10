@@ -2,6 +2,13 @@
 ### By Carsten Thue-Bludworth
 ### 2024
 
+#### Overview
+
+#### Structure
+* `cad` directory contains mechanical and electrical design files.
+* `bot` directory contains code that runs on the robot itself.
+* `server` directory contains code that runs on a remote server.
+
 __04/10/2024__
 * Start experimenting with `rerun` in Python by creating a virtual environment and then `pip install --upgrade rerun-sdk`.
 * On server machine (my laptop) install rerun viewer with `cargo binstall rerun`.
